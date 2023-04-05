@@ -1,7 +1,4 @@
 ---
-experimental:
-  http3:
-    enabled: true
 ports:
   websecure:
     tls:
