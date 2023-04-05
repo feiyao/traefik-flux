@@ -8,5 +8,7 @@ configMapGenerator:
 - name: traefik-values
   files:
   - values.yaml=values.yaml
+generatorOptions:
+  immutable: true
 patchesStrategicMerge:
 - helmrelease.yaml
